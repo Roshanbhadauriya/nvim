@@ -19,6 +19,7 @@ return {
       "markdown",
       "python",
       "rust",
+      "tsx",
       "typescript",
       "vim",
       "vimdoc",

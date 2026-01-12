@@ -6,9 +6,9 @@
 --
 
 -- In your LazyVim config file
--- Switch to next tab with Tab + ]
+-- Switch to next buffer with Tab + ]
 vim.api.nvim_set_keymap("n", "<Tab>]", ":bnext<CR>", { noremap = true, silent = true })
--- Switch to previous tab with Tab + [
+-- Switch to previous buffer with Tab + [
 vim.api.nvim_set_keymap("n", "<Tab>[", ":bprevious<CR>", { noremap = true, silent = true })
 
 -- knowledge base

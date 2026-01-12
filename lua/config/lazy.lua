@@ -21,7 +21,7 @@ require("lazy").setup({
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
-        colorscheme = "tokyonight-night",
+        colorscheme = "kanagawa",
         transparent = true, -- Enable this to disable setting the background color
       },
     },
