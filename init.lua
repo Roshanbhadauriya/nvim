@@ -6,5 +6,9 @@ require("neo-tree").setup({
     filtered_items = {
       visible = true, -- always show hidden files
     },
+    follow_current_file = {
+      enabled = true,
+    },
+    use_libuv_file_watcher = true,
   },
 })
